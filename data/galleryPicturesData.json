@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "src": "/images/abajour-tahina.webp",
+        "title": "Abajour - Tahina",
+        "category": "Objets"
+    },
+    {
+        "id": 2,
+        "src": "/images/appartement-paris-v.webp",
+        "title": "Appartement Paris V",
+        "category": "Appartements"
+    },
+    {
+        "id": 3,
+        "src": "/images/appartement-paris-x.webp",
+        "title": "Appartement Paris X",
+        "category": "Appartements"
+    },
+    {
+        "id": 4,
+        "src": "/images/appartement-paris-xviii.webp",
+        "title": "Appartement Paris XVIII",
+        "category": "Appartements"
+    },
+    {
+        "id": 5,
+        "src": "/images/bar-lullaby-paris.webp",
+        "title": "Bar “Lullaby” - Paris",
+        "category": "Hôtels & restaurants"
+    },
+    {
+        "id": 6,
+        "src": "/images/hotel-first-arte-new-delhi.webp",
+        "title": "Hotel First Arte - New Delhi",
+        "category": "Hôtels & restaurants"
+    },
+    {
+        "id": 7,
+        "src": "/images/la-balisiere.webp",
+        "title": "Villa “La Balisiere” - Port Louis",
+        "category": "Appartements"
+    },
+    {
+        "id": 8,
+        "src": "/images/le-coteau-cassis.webp",
+        "title": "Pavillon “Le coteau” - Cassis",
+        "category": "Appartements"
+    },
+    {
+        "id": 9,
+        "src": "/images/malt-&-juniper-new-york.webp",
+        "title": "Malt & Juniper - New York",
+        "category": "Hôtels & restaurants"
+    },
+    {
+        "id": 10,
+        "src": "/images/restaurant-sushisen-londres.webp",
+        "title": "Restaurant Sushisen - Londres",
+        "category": "Hôtels & restaurants"
+    },
+    {
+        "id": 11,
+        "src": "/images/structures-thermopolis.webp",
+        "title": "Structures Thermopolis",
+        "category": "Objets"
+    },
+    {
+        "id": 12,
+        "src": "/images/villa-ferneze.webp",
+        "title": "Villa Ferneze - Isola d’Elba",
+        "category": "Appartements"
+    }
+]
