@@ -1,4 +1,3 @@
-// Used in Home page
 "use client";
 
 import { Syne } from "next/font/google";
@@ -55,7 +54,10 @@ export default function ContactForm() {
     };
 
     return (
-        <section id="contact" className="flex flex-col items-center">
+        <section
+            id="contact"
+            className="select-none flex flex-col items-center"
+        >
             <h2 className={`${syne.className} title`}>Contact</h2>
             <p className="mt-1">Vous avez un projet ? Discutons-en</p>
 
@@ -70,8 +72,7 @@ export default function ContactForm() {
                         Nom
                     </label>
                     <input
-                        className="w-full p-3 text-sm shadow-md
-                        outline-none focus:border focus:border-primary focus:rounded"
+                        className="w-full p-3 text-sm shadow-md outline-none focus:border focus:border-primary focus:rounded"
                         type="text"
                         id="name"
                         autoComplete="name"
@@ -90,8 +91,7 @@ export default function ContactForm() {
                         E-mail
                     </label>
                     <input
-                        className="w-full p-3 text-sm shadow-md
-                        outline-none focus:border focus:border-primary focus:rounded"
+                        className="w-full p-3 text-sm shadow-md outline-none focus:border focus:border-primary focus:rounded"
                         type="email"
                         id="email"
                         autoComplete="email"
@@ -111,8 +111,7 @@ export default function ContactForm() {
                     </label>
 
                     <textarea
-                        className="w-full p-3 text-sm shadow-md
-                        outline-none focus:border focus:border-primary focus:rounded"
+                        className="w-full p-3 text-sm shadow-md outline-none focus:border focus:border-primary focus:rounded"
                         rows={6}
                         id="message"
                         {...register("message")}

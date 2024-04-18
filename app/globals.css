@@ -5,70 +5,62 @@
 /* Custom Utility Class */
 
 .title {
-    @apply text-center text-primary font-bold text-2xl md:text-3xl;
+  @apply text-center text-2xl font-bold text-primary md:text-3xl;
 }
 
 .nav {
-    @apply text-textDark font-normal text-base 
-    hover:text-secondary hover:transition-all ease-in-out duration-300;
-}
-
-/* Keyframes */
-
-@keyframes pulse {
-    0%,
-    100% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(1.08);
-    }
-}
-
-.pulse {
-    animation: pulse 2s infinite ease-in-out;
+  @apply text-base font-normal text-textDark duration-300 ease-in-out hover:text-secondary hover:transition-all;
 }
 
 /* Smooth nav scrolling */
 
 * {
-    scroll-behavior: smooth !important;
+  scroll-behavior: smooth !important;
 }
 
 /* Scroll bar global style */
 
 body::-webkit-scrollbar {
-    width: 10px;
+  width: 10px;
 }
 
 body::-webkit-scrollbar-track {
-    background: #ffffff;
+  background: #ffffff;
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: #93532f;
+  background-color: #93532f;
 }
 
 body::-webkit-scrollbar-thumb:hover {
-    background-color: #1d6154;
+  background-color: #1d6154;
+}
+
+/* For Firefox compatibility only */
+@-moz-document url-prefix() {
+  html,
+  .modal {
+    scrollbar-color: #93532f #ffffff;
+    scrollbar-width: thin;
+  }
 }
 
 /* Scroll bar modall style */
 
 .modal::-webkit-scrollbar {
-    width: 8px;
+  width: 8px;
 }
 
 .modal::-webkit-scrollbar-track {
-    background: #ffffff;
-    border-radius: 4px;
+  background: #ffffff;
+  border-radius: 4px;
 }
 
 .modal::-webkit-scrollbar-thumb {
-    background-color: #93532f;
-    border-radius: 4px;
+  background-color: #93532f;
+  border-radius: 4px;
 }
 
 .modal::-webkit-scrollbar-thumb:hover {
-    background-color: #1d6154;
+  background-color: #1d6154;
 }
